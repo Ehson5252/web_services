@@ -1,0 +1,78 @@
+
+.navbar {
+    height: 100px;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 8%;
+
+    animation: loader 1s;
+}
+
+.logo-block{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo{
+    width: 80px;
+}
+.logo-block p{
+    font-family: 'Roboto Serif', serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #005774;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    font-size: 20px;
+}
+.nav-menu li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Style for Get Quote button in navbar */
+.get-quote-btn {
+    box-sizing: border-box;
+    background-color: #FBA500;    
+    border: 2px solid #FBA500;
+
+    color: #005774 !important;
+    padding: 12px 24px;
+    border-radius: 16px;
+    font-weight: 500;
+    transition: 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+   
+}
+
+.get-quote-btn:hover {
+    border: 2px solid #005774;
+    background-color: #ffc965;    
+
+}
+
+
+@keyframes loader {
+    from {
+        transform: translateY(-100px); 
+    }
+
+    to {
+        transform: translateY(0); 
+    }
+
+
+}
+
+
