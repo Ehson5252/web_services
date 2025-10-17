@@ -19,7 +19,6 @@ const Navbar = () => {
 					<li><a href="#get-quote" className="get-quote-btn">GET QUOTE</a></li>
 				</ul>
 
-				<p>FOR FAN</p>
 			</nav>
 		);
 };
