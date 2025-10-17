@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./Loader.css";
+import "./loader.css";
 
 import tea_cup from '../../assets/tea_cup.gif'
 
