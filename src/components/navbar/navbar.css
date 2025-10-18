@@ -6,8 +6,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px 8%;
-
-    animation: loader 2s;
+    background-color: white;
+    animation: loader 1s;
 }
 
 .logo-block{

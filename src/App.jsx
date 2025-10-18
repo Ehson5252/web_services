@@ -1,8 +1,9 @@
 import React from 'react'
+import Loader from './components/loader/Loader'
 import Navbar from  "./components/navbar/Navbar"
 import Hero from './components/hero/Hero'
-import Loader from './components/loader/Loader'
-// import About from './components/about/About'
+import Carousel from './components/carousel/Carousel'
+import About from './components/about/About'
 // import Services from './components/services/Services'
 // import MyWork from './components/myWork/MyWork'
 // import Contact from './components/contact/Contact'
@@ -13,7 +14,8 @@ const App = () => {
     <Loader>
       <Navbar />
       <Hero />
-      {/* <About /> */}
+      <Carousel />
+      <About />
       {/* <Services /> */}
       {/* <MyWork /> */}
       {/* <Contact /> */}

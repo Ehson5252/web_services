@@ -1,17 +1,19 @@
 import React from 'react'
-// import AnchorLink from 'react-anchor-link-smooth-scroll' 
-import tea_cup from '../../assets/tea_cup.gif'
 import './hero.css'
+
+
+import laptop from '../../assets/laptop.png'
 
 const Hero = () => {
   return (
     <div id='home' className='hero' >
-      {/* <img src={tea_cup} alt="" className="gif"/> */}
-      <div>
-        <h1>Let’s build your <span></span>Website today</h1>
 
+      <div className='text-block'>
+        <h1>Let’s build your <span>Website</span> today</h1>
+        <p>Modern, fast, and tailored to your needs — we create websites that don’t just look good, they deliver results.</p>
+        <button>GET QUOTE</button>
       </div>
-      
+      <img src={laptop} alt="" />
     </div>
   )
 }
