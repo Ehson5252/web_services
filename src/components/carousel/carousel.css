@@ -1,21 +1,25 @@
 .carousel {
   width: 100%;
   overflow: hidden;
-  background: #111;
   padding: 20px 0;
+  border-top: 1px solid #FBA500;
+  border-bottom: 1px solid #FBA500;
 }
 
 .carousel-track {
   display: flex;
-  gap: 20px;
+  gap: 120px;
   animation: scroll 20s linear infinite;
 }
 
 .carousel-track img {
-  width: 400px;
-  height: 250px;
-  border-radius: 10px;
-  object-fit: cover;
+  width: 40px;
+  
+}
+
+.carousel-track img:hover {
+  filter: invert(63%) sepia(79%) saturate(2279%) hue-rotate(3deg) brightness(106%) contrast(104%);
+
 }
 
 /* Animation for continuous movement */
