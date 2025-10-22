@@ -1,1 +1,29 @@
-r
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  background: #111;
+  padding: 20px 0;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 20px;
+  animation: scroll 20s linear infinite;
+}
+
+.carousel-track img {
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Animation for continuous movement */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
