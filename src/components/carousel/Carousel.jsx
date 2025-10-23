@@ -16,32 +16,36 @@ import typescript from '../../assets/carousel/typescript_icon.png';
 import wix from '../../assets/carousel/wix_icon.png';
 import wordpress from '../../assets/carousel/wordpress_icon.png';
 
-const images = [
-  amazon,
-  react,
-  nextjs,
-  nodejs,
-  tailwind,
-  typescript,
-  wix,
-  wordpress,
-  docker,
-  mongo_db,
-  css3,
-  figma,
-  html5,
-  js,
-  react,
-];
+const techs = {
+  // amazon: amazon,
+  React: react,
+  Next: nextjs,
+  Amazon: amazon,
+  Node: nodejs,
+  Tailwind: tailwind,
+  Typescript: typescript,
+  Wix: wix,
+  Wordpress: wordpress,
+  Docker: docker,
+  MongoDB: mongo_db,
+  CSS3: css3,
+  Figma: figma,
+  HTML5: html5,
+  JavaScript: js,
+  React: react,
+};
 
 function  Carousel() {
   return (
     <div className="carousel">
       <div className="carousel-track">
         {/* We duplicate the list to make the loop seamless */}
-        {[...images, ...images].map((src, i) => (
-          <img key={i} src={src} alt={`Slide ${i}`} />
-        ))}
+        {Object.entries(techs).map(([key, value]) => 
+        <div className="carousel-item">
+          <img key={key} src={value} alt={key} />
+          <p>{key}</p>
+        </div>)}
+
       </div>
     </div>
   );
