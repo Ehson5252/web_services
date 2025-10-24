@@ -1,13 +1,14 @@
 .carousel {
   width: 100%;
   overflow: hidden;
-  padding-top: 20px;
+  
   margin-top: -150px;
   border-top: 1px solid #FBA500;
   border-bottom: 1px solid #FBA500;
 }
 
 .carousel-track {
+  padding-top: 20px;
   display: flex;
   gap: 130px;
   animation: scroll 20s linear infinite;
@@ -50,7 +51,7 @@ visibility: hidden;}
 /* Animation for continuous movement */
 @keyframes scroll {
   0% {
-    transform: translateX(0);
+    transform: translateX(50%);
   }
   100% {
     transform: translateX(-50%);

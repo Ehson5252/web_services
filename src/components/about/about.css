@@ -1,0 +1,25 @@
+.about{
+    margin: 80px 8% 140px 8%;
+}
+
+.main-content{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    
+    background-color: aqua;
+}
+
+
+.img-block img{
+    width: 510px;
+    height: 330px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+
+h1{
+    /* background-color:red; */
+}

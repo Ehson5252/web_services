@@ -1,0 +1,25 @@
+
+
+.title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #005774;
+    padding: 10px 16px;
+    border-bottom: 1px solid #005774;
+    border-radius: 0 0 16px 16px;
+    display: inline-block;
+}
+
+
+
+.biggest-text{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.biggest-text span{
+    color: #FBA500;
+}
+
