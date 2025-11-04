@@ -12,9 +12,9 @@ const Loader = ({ children }) => {
 
   useEffect(() => {
     // Wait until all resources are loaded
-    window.addEventListener("load", () => {
-      setTimeout(() => setLoading(false), 1500); // 1.5s fade
-    });
+    // window.addEventListener("load", () => {
+      setTimeout(() => setLoading(false), 1700); // 1.5s fade
+    // });
   }, []);
 
   return (

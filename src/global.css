@@ -1,7 +1,19 @@
 
 
-.title {
+.section {
+margin: 80px 8% 140px 8%;
+}
+
+P{
     font-size: 20px;
+    color: #404040;
+    line-height: 32px;
+}
+
+
+/* title style for sections */
+.title {
+    font-size: 32px;
     font-weight: 500;
     color: #005774;
     padding: 10px 16px;

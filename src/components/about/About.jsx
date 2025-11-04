@@ -8,7 +8,7 @@ import softwaredev from '../../assets/softwaredev.jpg';
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about section">
       <h2 className="title">About Us</h2>
       <div className="about-main-content">
 

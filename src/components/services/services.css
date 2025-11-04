@@ -1,0 +1,37 @@
+
+.services-text{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.services-text p{
+    max-width: 800px;
+}
+
+
+.services-main-content{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 40px;
+}
+
+.grid-item {
+  background-color: aqua;
+
+}
+
+.first-s{
+  grid-column: span 5;
+}
+.second-s{
+  grid-column: span 4;
+}
+
+.third-s{
+  grid-column: span 4;
+}
+
+.fourth-s{
+  grid-column: span 5;
+}
