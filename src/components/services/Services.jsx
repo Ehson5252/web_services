@@ -1,5 +1,8 @@
 import React from 'react'
 import './services.css'
+import web_design_img from '../../assets/webdesign-2.jpg'
+import softwaredev from '../../assets/softwaredev.jpg';
+
 
 const Services = () => {
   return (
@@ -13,19 +16,26 @@ const Services = () => {
 
 
       <div className="services-main-content">
-        <div className="first-s grid-item">
-          <h3>Web Design</h3>
+        <div className="first-s grid-items">
+          <img src={web_design_img} alt="" />
+          <h1 className="biggest-text">WEB DESIGN</h1>
+          <p>Chai Services creates responsive, user-friendly websites on platforms like WordPress, Shopify, Wix, Squarespace, and Joomla. We design visually appealing sites that engage users and bring your vision to life.</p>
+          <button className="btn">Learn More &gt; </button>
         </div>
              
-        <div className="second-s grid-item">
-          <h3>Custom Software Development</h3>
+        <div className="second-s grid-items">
+          <h1>Custom Software Development</h1>
+          <p>At Chai Services, we provide robust software development using Python, Java, C#, JavaScript, and PHP. Our team delivers customized, high-quality solutions, including scalable web applications and Android/iOS mobile apps, driving your business forward.</p>
+          <button className="btn">Learn More &gt; </button>
+          <img src = {softwaredev} alt="" />
+
         </div>
 
-        <div className="third-s grid-item">
+        <div className="third-s grid-items">
           <h3>Digital Marketing & SEO</h3>
         </div>
 
-        <div className="fourth-s grid-item">
+        <div className="fourth-s grid-items">
           <h3>IT Talent Services</h3>
         </div>
       </div>

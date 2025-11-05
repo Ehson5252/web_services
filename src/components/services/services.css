@@ -10,23 +10,77 @@
 
 
 .services-main-content{
-    margin-top: 60px;
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    gap: 40px;
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 40px;
 }
 
-.grid-item {
-  background-color: aqua;
 
+.grid-items {
+  height: 60%;
+  box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.24);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+
+  /* background-color: aqua; */
 }
+.grid-items img{
+
+  width: 100%;
+  height: 55%;
+  object-fit: cover;
+  
+}
+.grid-items p{
+  padding: 24px;
+}
+.grid-items button{
+  margin: 0 auto 24px 24px;
+  padding: 12px 24px;
+  background-color: #FBA500;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 
 .first-s{
   grid-column: span 5;
 }
+.first-s h1{
+  position:relative;
+  font-style: italic;
+  font-weight: 700;
+  margin-top: -100px;
+  margin-left: 8%;
+  font-size: 90px;
+  background: linear-gradient(to bottom, #ffffff 50%, #FBA500 50%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+
+
 .second-s{
   grid-column: span 4;
 }
+.second-s h1{
+  font-size: 60px;
+  font-weight: 700;
+  padding: 24px;
+  font-family: monospace;
+}
+.second-s img{
+  object-position: 0 33%;
+}
+
 
 .third-s{
   grid-column: span 4;
