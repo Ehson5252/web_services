@@ -24,7 +24,7 @@ const Services = () => {
         </div>
              
         <div className="second-s grid-items">
-          <h1>Custom Software Development</h1>
+          <h1>&lt;/Custom Software Development&gt;</h1>
           <p>At Chai Services, we provide robust software development using Python, Java, C#, JavaScript, and PHP. Our team delivers customized, high-quality solutions, including scalable web applications and Android/iOS mobile apps, driving your business forward.</p>
           <button className="btn">Learn More &gt; </button>
           <img src = {softwaredev} alt="" />
